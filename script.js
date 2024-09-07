@@ -7,9 +7,11 @@ function validateForm() {
         return false; // Prevent form submission
     }
 
-    // Perform further validation or AJAX request here if needed
+    // Here you might check credentials or use AJAX to verify the login
+    // For simplicity, assume login is successful
 
-    return true; // Allow form submission
+    window.location.href = 'dashboard.html'; // Redirect to dashboard page
+    return false; // Prevent form submission
 }
 
 function validateSignup() {
